@@ -1,5 +1,6 @@
-import mymodule.mypackage.hello
+#import mymodule.mypackage.hello; print mymodule.mypackage.hello.test('Igor')
+#from mymodule.mypackage import hello; print hello.test('Igor')
 
-print mymodule.mypackage.hello.test('Igor')
+from mymodule.mypackage import hello
 
-print 'Okay'
+print hello.test('Igor')
