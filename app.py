@@ -1,5 +1,5 @@
-import helloworld.hello
+import mymodule.mypackage.hello
 
-print helloworld.hello.test('Igor')
+print mymodule.mypackage.hello.test('Igor')
 
 print 'Okay'
